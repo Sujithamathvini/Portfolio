@@ -1,0 +1,150 @@
+@media (max-width:1400px){
+    #skills-section{
+        grid-column-gap: 3vw;
+    }
+    #right-side{
+        gap: 10vw;
+    }
+}
+
+@media (max-width:1300px){
+    #about-section{
+        height: 80vh;
+    }
+    #about-section #about{
+        display: block;
+    }
+    #skills-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        gap: 5rem;
+        padding: 5% 5%;
+    }
+    #heading{
+        display: flex;
+        justify-content: center;
+    }
+    #right-side{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    #right-side #grp1{
+        width: 100%;
+        padding: 2% 5%;
+    }
+    #right-side #grp2{
+        padding: 2% 5%;
+    }
+}
+
+@media (max-width:1200px){
+    #about-section{
+        height: 80vh;
+    }
+    #about-section{
+        height: 70vh;
+        padding: 3% 6%;
+    }
+    #about-section #about{
+        display: block;
+    }
+}
+
+@media (max-width:900px){
+    #about #content{
+    margin-bottom: 1rem;
+    }
+    #about-section{
+        height: 80vh;
+    }
+    #about-section #about{
+        display: block;
+    }
+    #skills-section{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        height: 150vh;
+        gap: 5rem;
+        padding: 1% 1%;
+    }
+    #heading{
+        display: flex;
+        justify-content: center;
+    }
+    #right-side{
+        display: block;
+        row-gap: 5rem;
+    }
+    #right-side #grp1{
+       margin-bottom: 20px;
+    }
+    #right-side #grp2{
+        padding: 2% 5%;
+    }
+}
+
+@media (max-width:800px) {
+    #content{
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width:600px){
+    #about-section{
+        height: 91vh;
+    }
+    #about-section #about{
+        display: block;
+    }
+    #content{
+        height: 40vh;
+        padding: 0 .3rem;
+    }
+    #content h3{
+        font-size: 1rem;
+    }
+    #content a{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:500px){
+    #about-section{
+        height: 98vh;
+    }
+    #content{
+        height: 30vh;
+        padding: 0 .3rem;
+    }
+    #content h3{
+        font-size: 1rem;
+    }
+    #content a{
+        font-size: .8rem;
+    }
+    .icon_class{
+        padding: 0 .4rem;
+    }
+}
+
+@media (max-width:400px) {
+    #about-section{
+        height: 110vh;
+    }
+}
+
+@media (max-width:1024px){
+    #nav{
+        display:none;
+    }
+    #nav2{
+        display:none;
+    }
+}
